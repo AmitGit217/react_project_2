@@ -1,0 +1,21 @@
+.header {
+  height: 55px;
+  background: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 7px;
+}
+
+.header__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+}
+.header__logo {
+  width: 24px;
+  height: 24px;
+}
