@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  margin-bottom: 36px;
+  column-gap: 19px;
+}
+.card__image {
+  width: 150px;
+  height: 190px;
+  border-radius: 5px;
+}
+.cardbrief {
+  display: flex;
+  height: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+.cardbrief__logo {
+  width: 10px;
+  height: 12px;
+}
+.cardbrief__location {
+  margin: 0 12px 0 4px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+}
+.cardbrief__link {
+  text-decoration-line: underline;
+  color: #918e9b;
+}
