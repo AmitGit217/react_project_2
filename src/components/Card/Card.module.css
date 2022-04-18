@@ -2,13 +2,17 @@
   display: flex;
   margin-bottom: 36px;
   column-gap: 19px;
+  font-family: "Inter";
+  font-style: normal;
 }
 .card__image {
   width: 150px;
   height: 190px;
   border-radius: 5px;
+  object-fit: cover;
 }
 .cardbrief {
+  margin-top: 20px;
   display: flex;
   height: 10px;
   font-family: "Inter";
@@ -29,4 +33,49 @@
 .cardbrief__link {
   text-decoration-line: underline;
   color: #918e9b;
+}
+
+.cardContent__title {
+  margin: 13px 0;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+}
+
+.cardContent__date {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 12px;
+  color: #2b283a;
+}
+
+.cardContent__description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 15px */
+  color: #2b283a;
+}
+
+@media screen and (max-width: 375px) {
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+  }
+  .cardContent__title {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  .cardContent__date {
+    font-size: 12px;
+  }
+  .card__image {
+    width: 125px;
+    height: 200px;
+  }
+  .cardbrief {
+    min-height: 30px;
+  }
 }
